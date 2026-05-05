@@ -39,7 +39,7 @@ en:
 
   projects:
     - title: "Mixup: Beyond Empirical Risk Minimization"
-      authors: [Hongyi Zhang, Moustafa Cisse, Yann N. Dauphin, David Lopez-Paz]
+      authors: [<b>Hongyi Zhang</b>, Moustafa Cisse, Yann N. Dauphin, David Lopez-Paz]
       image: /assets/images/mixup.jpg
       description: Mixup is a simple yet effective data augmentation technique that improves the generalization and robustness of machine learning models by blending together multiple training examples. It is <b>the most cited data augmentation technique</b> in machine learning.
       tags: [data augmentation, generalization]
@@ -51,7 +51,7 @@ en:
         - label: Code
           url: "https://github.com/hongyi-zhang/mixup"
     - title: "Fixup Initialization: Residual Learning Without Normalization"
-      authors: [Hongyi Zhang, Yann N. Dauphin, Tengyu Ma]
+      authors: [<b>Hongyi Zhang</b>, Yann N. Dauphin, Tengyu Ma]
       image: /assets/images/fixup.jpg
       description: We prove that normalization modules stabilize the training of residual networks because they avoid the exploding gradient problem in vanilla initialization, and propose a new initialization method that allows for <b>stable and efficient residual learning without normalization</b>.
       tags: [deep learning, optimization]
@@ -63,7 +63,7 @@ en:
         - label: Code
           url: "https://github.com/hongyi-zhang/Fixup"
     - title: First-order Methods for Geodesically Convex Optimization
-      authors: [Hongyi Zhang, Suvrit Sra]
+      authors: [<b>Hongyi Zhang</b>, Suvrit Sra]
       image: /assets/images/rieopt.jpg
       description: We derive a novel trigonometric inequality for Riemannian manifolds, which is a generalization of "law of cosines" in Euclidean space, and is crucial for the analysis of Riemannian optimization algorithms. The inequality enables us to establish <b>the first-ever iteration complexity bounds</b> for first-order optimization methods on geodesically convex functions.
       tags: [optimization, theory]
@@ -115,7 +115,7 @@ cn:
 
   projects:
     - title: "Mixup: Beyond Empirical Risk Minimization"
-      authors: [Hongyi Zhang, Moustafa Cisse, Yann N. Dauphin, David Lopez-Paz]
+      authors: [<b>Hongyi Zhang</b>, Moustafa Cisse, Yann N. Dauphin, David Lopez-Paz]
       image: /assets/images/mixup.jpg
       description: Mixup 是一种能提升机器学习模型泛化能力和鲁棒性的数据增强技术，通过将多个训练样本混合在一起，生成新的训练样本。它简单有效，是机器学习领域<b>引用量最多的数据增强技术</b>。
       tags: [data augmentation, generalization]
@@ -127,7 +127,7 @@ cn:
         - label: Code
           url: "https://github.com/hongyi-zhang/mixup"
     - title: "Fixup Initialization: Residual Learning Without Normalization"
-      authors: [Hongyi Zhang, Yann N. Dauphin, Tengyu Ma]
+      authors: [<b>Hongyi Zhang</b>, Yann N. Dauphin, Tengyu Ma]
       image: /assets/images/fixup.jpg
       description: 我们证明了归一化模块稳定了残差网络的训练，是因为它们避免了默认初始化中的梯度爆炸问题。我们根据第一性原理提出了一种新的初始化方法，使得深度残差网络<b>即使没有归一化模块也可以稳定且高效地进行残差学习</b>。
       tags: [deep learning, optimization]
@@ -139,7 +139,7 @@ cn:
         - label: Code
           url: "https://github.com/hongyi-zhang/Fixup"
     - title: First-order Methods for Geodesically Convex Optimization
-      authors: [Hongyi Zhang, Suvrit Sra]
+      authors: [<b>Hongyi Zhang</b>, Suvrit Sra]
       image: /assets/images/rieopt.jpg
       description: 我们推导出了一个新颖的黎曼流形上的三角不等式，它是欧几里得空间中“余弦定理”的推广，对于分析黎曼优化算法至关重要。该不等式使得我们<b>首次证明了一阶优化方法在黎曼流形上的迭代复杂度上界</b>。
       tags: [optimization, theory]
