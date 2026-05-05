@@ -1,0 +1,24 @@
+title: Hongyi Zhang
+description: Personal website for research, projects, updates, and writing.
+url: "https://hongyi-zhang.github.io"
+baseurl: ""
+lang: en
+timezone: America/Los_Angeles
+
+author:
+  name: Hongyi Zhang
+
+permalink: /:categories/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

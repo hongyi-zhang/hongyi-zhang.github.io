@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <a class="back-link" href="{{ '/misc/' | relative_url }}">
+      <span data-lang="en">Back to Misc</span>
+      <span data-lang="cn" hidden>返回杂项</span>
+    </a>
+    <p class="eyebrow">{{ page.date | date: "%B %-d, %Y" }}</p>
+    <h1>
+      <span data-lang="en">{{ page.title }}</span>
+      <span data-lang="cn" hidden>{{ page.title_cn | default: page.title }}</span>
+    </h1>
+    {% if page.excerpt %}
+      <p class="lead">
+        <span data-lang="en">{{ page.excerpt }}</span>
+        <span data-lang="cn" hidden>{{ page.excerpt_cn | default: page.excerpt }}</span>
+      </p>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

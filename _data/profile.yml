@@ -1,0 +1,158 @@
+# Edit this file to update the bilingual content across the site.
+email: hongyi.zhang.pku@gmail.com
+
+social:
+  google_scholar: "https://scholar.google.com/citations?user=6Wg-hF4AAAAJ"
+  github: "https://github.com/hongyi-zhang"
+
+en:
+  name: Hongyi Zhang
+  headline:
+  location: 
+
+  labels:
+    about:
+    updates: Updates
+    updates_description:
+    projects: Project Highlights
+    projects_description:
+    scholar: Google Scholar
+    github: GitHub
+    misc_eyebrow: Writing and links
+    misc_title: Misc
+    misc_description: Blog posts, notes, resources, and other things worth keeping close.
+    blog: Blog
+    blog_description:
+    links: Other Links
+    links_description:
+    no_posts:
+
+  intro:
+    - I am a research scientist at ByteDance, where I built a production-level browser-use agent framework, trained LLMs, and created an MPC-based online bidding system, empowering ByteDance's multi-billion dollar ad business.
+    - I obtained my Ph.D. in <a href="https://bcs.mit.edu/">Brain and Cognitive Sciences (BCS)</a> and <a href="https://lids.mit.edu/">Laboratory for Information and Decision Systems (LIDS)</a> at MIT advised by Prof. <a href="https://optml.mit.edu/">Suvrit Sra</a>. I got my B.S. in Machine Intelligence from Peking University, advised by Prof. <a href="http://www.liweiwang-pku.com/">Liwei Wang</a>. I had three research internships, two at Facebook AI Research (FAIR) and one at Toyota Technological Institute at Chicago (TTIC).
+    - See below for my representative research projects.
+
+  updates:
+    - date: 2026-05
+      title: A new journey
+      description: Looking forward to new challenges and opportunities after 7 years in ByteDance.
+
+  projects:
+    - title: "Mixup: Beyond Empirical Risk Minimization"
+      authors: [Hongyi Zhang, Moustafa Cisse, Yann N. Dauphin, David Lopez-Paz]
+      image: /assets/images/mixup.jpg
+      description: Mixup is a simple yet effective data augmentation technique that improves the generalization and robustness of machine learning models by blending together multiple training examples. It is <b>the most cited data augmentation technique</b> in machine learning.
+      tags: [data augmentation, generalization]
+      venue: ICLR 2018
+      url: "https://openreview.net/forum?id=r1Ddp1-Rb"
+      links:
+        - label: Paper
+          url: "https://openreview.net/forum?id=r1Ddp1-Rb"
+        - label: Code
+          url: "https://github.com/hongyi-zhang/mixup"
+    - title: "Fixup Initialization: Residual Learning Without Normalization"
+      authors: [Hongyi Zhang, Yann N. Dauphin, Tengyu Ma]
+      image: /assets/images/fixup.jpg
+      description: We prove that normalization modules stabilize the training of residual networks because they avoid the exploding gradient problem in vanilla initialization, and propose a new initialization method that allows for <b>stable and efficient residual learning without normalization</b>.
+      tags: [deep learning, optimization]
+      venue: ICLR 2019
+      url: "https://openreview.net/forum?id=H1gsz30cKX"
+      links:
+        - label: Paper
+          url: "https://openreview.net/forum?id=H1gsz30cKX"
+        - label: Code
+          url: "https://github.com/hongyi-zhang/Fixup"
+    - title: First-order Methods for Geodesically Convex Optimization
+      authors: [Hongyi Zhang, Suvrit Sra]
+      image: /assets/images/rieopt.jpg
+      description: We derive a novel trigonometric inequality for Riemannian manifolds, which is a generalization of "law of cosines" in Euclidean space, and is crucial for the analysis of Riemannian optimization algorithms. The inequality enables us to establish <b>the first-ever iteration complexity bounds</b> for first-order optimization methods on geodesically convex functions.
+      tags: [optimization, theory]
+      venue: COLT 2016
+      url: "https://proceedings.mlr.press/v49/zhang16b.pdf"
+      links:
+        - label: Paper
+          url: "https://proceedings.mlr.press/v49/zhang16b.pdf"
+
+  misc_links:
+    # - title: Reading List
+    #   description: Papers, essays, and references I keep coming back to.
+    #   url: "https://example.com"
+    # - title: Notes Archive
+    #   description: A place for smaller links, talks, or resource collections.
+    #   url: "https://example.com"
+
+cn:
+  name: 张宏毅
+  headline:
+  location:
+
+  labels:
+    about:
+    updates: 近况
+    updates_description:
+    projects: 代表性研究项目
+    projects_description:
+    scholar: 谷歌学术
+    github: GitHub
+    misc_eyebrow: 写作与链接
+    misc_title: 杂项
+    misc_description: 博客、笔记、资源与其他值得保留的内容。
+    blog: 博客
+    blog_description:
+    links: 其他链接
+    links_description:
+    no_posts:
+
+  intro:
+    - 我在字节跳动担任研究科学家，负责构建生产级的浏览器使用智能体框架，训练大语言模型，研发 MPC 在线竞价系统，以支撑字节跳动数百亿美金的广告业务。
+    - 我于 2019 年获得麻省理工学院<a href="https://bcs.mit.edu/">脑与认知科学 (BCS)</a>和<a href="https://lids.mit.edu/">信息与决策系统 (LIDS)</a>博士学位，导师为 <a href="https://optml.mit.edu/">Suvrit Sra</a> 教授。我本科毕业于北京大学智能科学系，导师为 <a href="http://www.liweiwang-pku.com/">王立威</a> 教授。我在 Facebook AI Research (FAIR) 和丰田科技研究所 (TTIC) 进行了三段研究实习。
+    - 我的代表性研究项目包括 Mixup, Fixup, Riemannian Optimization 等。
+
+  updates:
+    - date: 2026-05
+      title: 新旅程
+      description: 在字节跳动 7 年之后，期待新的挑战与机会。
+
+  projects:
+    - title: "Mixup: Beyond Empirical Risk Minimization"
+      authors: [Hongyi Zhang, Moustafa Cisse, Yann N. Dauphin, David Lopez-Paz]
+      image: /assets/images/mixup.jpg
+      description: Mixup 是一种能提升机器学习模型泛化能力和鲁棒性的数据增强技术，通过将多个训练样本混合在一起，生成新的训练样本。它简单有效，是机器学习领域<b>引用量最多的数据增强技术</b>。
+      tags: [data augmentation, generalization]
+      venue: ICLR 2018
+      url: "https://openreview.net/forum?id=r1Ddp1-Rb"
+      links:
+        - label: Paper
+          url: "https://openreview.net/forum?id=r1Ddp1-Rb"
+        - label: Code
+          url: "https://github.com/hongyi-zhang/mixup"
+    - title: "Fixup Initialization: Residual Learning Without Normalization"
+      authors: [Hongyi Zhang, Yann N. Dauphin, Tengyu Ma]
+      image: /assets/images/fixup.jpg
+      description: 我们证明了归一化模块稳定了残差网络的训练，是因为它们避免了默认初始化中的梯度爆炸问题。我们根据第一性原理提出了一种新的初始化方法，使得深度残差网络<b>即使没有归一化模块也可以稳定且高效地进行残差学习</b>。
+      tags: [deep learning, optimization]
+      venue: ICLR 2019
+      url: "https://openreview.net/forum?id=H1gsz30cKX"
+      links:
+        - label: Paper
+          url: "https://openreview.net/forum?id=H1gsz30cKX"
+        - label: Code
+          url: "https://github.com/hongyi-zhang/Fixup"
+    - title: First-order Methods for Geodesically Convex Optimization
+      authors: [Hongyi Zhang, Suvrit Sra]
+      image: /assets/images/rieopt.jpg
+      description: 我们推导出了一个新颖的黎曼流形上的三角不等式，它是欧几里得空间中“余弦定理”的推广，对于分析黎曼优化算法至关重要。该不等式使得我们<b>首次证明了一阶优化方法在黎曼流形上的迭代复杂度上界</b>。
+      tags: [optimization, theory]
+      venue: COLT 2016
+      url: "https://proceedings.mlr.press/v49/zhang16b.pdf"
+      links:
+        - label: Paper
+          url: "https://proceedings.mlr.press/v49/zhang16b.pdf"
+
+  misc_links:
+    # - title: 阅读清单
+    #   description: 持续回看的论文、文章与参考资料。
+    #   url: "https://example.com"
+    # - title: 笔记归档
+    #   description: 用于存放较小的链接、报告或资源合集。
+    #   url: "https://example.com"

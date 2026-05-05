@@ -1,0 +1,20 @@
+<header class="site-header">
+  <a class="site-title" href="{{ '/' | relative_url }}">
+    <span data-lang="en">{{ site.data.profile.en.name }}</span>
+    <span data-lang="cn" hidden>{{ site.data.profile.cn.name }}</span>
+  </a>
+  <div class="header-actions">
+    <nav class="site-nav" aria-label="Primary navigation">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>
+          <span data-lang="en">{{ item.title_en }}</span>
+          <span data-lang="cn" hidden>{{ item.title_cn }}</span>
+        </a>
+      {% endfor %}
+    </nav>
+    <div class="language-switch" aria-label="Language switch">
+      <button type="button" data-language-button="en" aria-pressed="true">EN</button>
+      <button type="button" data-language-button="cn" aria-pressed="false">CN</button>
+    </div>
+  </div>
+</header>
