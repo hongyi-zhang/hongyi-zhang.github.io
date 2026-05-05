@@ -28,7 +28,7 @@ en:
     no_posts:
 
   intro:
-    - I am a research scientist at ByteDance, where I built a production-level browser-use agent framework, trained LLMs, and created an MPC-based online bidding system, empowering ByteDance's multi-billion dollar ad business.
+    - I am a research scientist at ByteDance, where I built a production-level browser-use agent framework, trained LLMs, and invented an MPC-based online bidding system to power ByteDance's multi-billion dollar ad business.
     - I obtained my Ph.D. in <a href="https://bcs.mit.edu/">Brain and Cognitive Sciences (BCS)</a> and <a href="https://lids.mit.edu/">Laboratory for Information and Decision Systems (LIDS)</a> at MIT advised by Prof. <a href="https://optml.mit.edu/">Suvrit Sra</a>. I got my B.S. in Machine Intelligence from Peking University, advised by Prof. <a href="http://www.liweiwang-pku.com/">Liwei Wang</a>. I had three research internships, two at Facebook AI Research (FAIR) and one at Toyota Technological Institute at Chicago (TTIC).
     - See below for my representative research projects.
 
