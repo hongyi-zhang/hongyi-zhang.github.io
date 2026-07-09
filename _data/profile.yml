@@ -35,7 +35,7 @@ en:
   updates:
     - date: 2026-06
       title: Embodied AI Research
-      description: I have joined PokeBot Inc. as a senior research scientist. Next plan: Physical AGI :)
+      description: "I have joined PokeBot Inc. as a senior research scientist. Next plan: Physical AGI :)"
 
   projects:
     - title: "Mixup: Beyond Empirical Risk Minimization"
